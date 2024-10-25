@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header{
+    padding: 0px 30px 45px;
+    background-color: rgb(247, 247, 236);
+    border-bottom: 5px solid darkgray
+}
+.marq{
+    background-color: #333;
+    color: rgb(255, 255, 255);
+
+}
+.scrolltext{
+    transform: translateX(100%);
+    animation: myanimation 15s linear infinite;
+}
+@keyframes myanimation {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+nav {
+    background-color: #333;
+}
+.points{
+    margin-left: 30px;
+}
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    overflow: hidden;
+
+}
+.search {
+    width: max-content;
+    display: flex;
+    align-items: center;
+    transform: translateX(290%) translateY(35%);
+    padding: 8px;
+    margin-top: 0px;
+    border-radius: 28px;
+    background: #f6f6f6
+}
+.search-input {
+    font-size: 17px;
+    font-family: 'Lexend', sans-serif;
+    color: #333333;
+    margin-left: 10px;
+    outline: none;
+    border: none;
+    background: transparent;
+}
+.menu li {
+    float: left;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.dropdown{
+    float: left;
+    display: flex;
+    justify-content: flex-end 16px;
+    text-decoration: none;
+}
+.menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+}
+.menu li a:hover {
+    background-color: #111;
+}
+h1{
+    font-size: 45px;
+    margin-bottom: 10px
+}
+h2{
+    font-size: 45px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.text{
+    margin-bottom: 20px;
+}
+.one{
+    margin-top: 45px
+}
+.two{
+    margin-bottom: 45px;
+    margin-top: 45px;
+}
